@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex.03.html</title>
+</head>
+<body>
+
+    <h1 align="center">table : 표 그리기</h1>
+    <hr>
+    <!--
+        table : 표
+        tr : table row, 표 내부의 한개의 줄
+        td : table data, 한 줄 안에서의 데이터를 나타내는 한 칸
+        th : table headline, td와 동일하지만 강조표시됨(굵게, 가운데)
+        thead : 테이블의 고정된 상단
+        tbody : 실제 데이터가 들어가는 하단
+    -->
+    <table border="1"
+            cellpadding = "10"
+            cellspacing = "0"
+            width="200px"
+            align="center">
+        <tr>
+            <th colspan="2"
+                bgcolor="lightgray">
+                성적표</th>
+        </tr>
+        <tr bgcolor="lightblue">
+            <th>이름</th>
+            <th>점수</th>
+        </tr>
+        <tr>
+            <td align="center">이지은</td>
+            <td align="center">100</td>
+        </tr>
+        <tr>
+            <td align="center">홍진호</td>
+            <td align="center">22</td>
+        </tr>
+    </table>
+    <p>
+        <input type="color"
+    </p>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+
+        <tr>
+            <td rowspan="3">
+                메<br>
+                뉴<br>
+                판<br>
+            </td>
+            <th>아메리카노</th>
+            <td>2000원</td>
+        </tr>
+        <tr>
+            <th>카페라떼</th>
+            <td>2500원</td>
+        </tr><tr>
+            <th>바닐라라떼</th>
+            <td>3000원</td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>
