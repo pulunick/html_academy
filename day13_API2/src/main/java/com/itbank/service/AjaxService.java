@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class AjaxService {
-	// 자바로 요청하여 데이터를 받아와서 반환하기gg
+	// 자바로 요청하여 데이터를 받아와서 반환하기gghh
 	// 데이터를 받기 위해 전달해야 하는 파라미터를 먼저 정리해야 한다
 	// 서비스키, 페이지번호, 페이지당데이터개수, 데이터타입, 도시번호, 요청시점
 	
